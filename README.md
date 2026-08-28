@@ -1,4 +1,4 @@
-# 🛡️ eMATINO
+# eMATINO
 
 ### *Empowering Media Awareness Through Integrity, Navigation, and Online Responsibility*
 
@@ -18,7 +18,7 @@
 
 ---
 
-## 📖 About the Project
+## About the Project
 
 **eMATINO** is a static, multi-page website created as a final project for **Introduction to Computing** at **Batangas State University — The National Engineering University**.
 
@@ -26,31 +26,31 @@ The website focuses on promoting **digital literacy, cybersecurity awareness, an
 
 eMATINO provides educational resources, awareness tips, and curated cybersecurity articles to help users navigate the digital world safely and confidently.
 
-### 🎯 Objectives
+### Objectives
 
-* 🔐 Promote cybersecurity awareness
-* 🧠 Encourage digital literacy
-* 🌐 Help users navigate the internet safely
-* 🛡️ Promote responsible online behavior
-* 📚 Provide accessible cybersecurity resources
+*  Promote cybersecurity awareness
+*  Encourage digital literacy
+*  Help users navigate the internet safely
+*  Promote responsible online behavior
+*  Provide accessible cybersecurity resources
 
 ---
 
-## 🌐 Website Pages
+##  Website Pages
 
 | Page | File                 | Description                                                                                                |
 | :--: | -------------------- | ---------------------------------------------------------------------------------------------------------- |
-|  🏠  | `index.html`         | Landing page featuring cybersecurity information, common threats, protection tips, and a table of contents |
-|  👥  | `about.html`         | Team information, mission, vision, and developer profiles                                                  |
-|  📰  | `blogs.html`         | Curated external articles about digital literacy and cybersecurity                                         |
-|  🛡️ | `awarenesstips.html` | 10 actionable tips for staying safe online                                                                 |
-|  🔗  | `letsconnect.html`   | Login and registration interface                                                                           |
+|    | `index.html`         | Landing page featuring cybersecurity information, common threats, protection tips, and a table of contents |
+|    | `about.html`         | Team information, mission, vision, and developer profiles                                                  |
+|    | `blogs.html`         | Curated external articles about digital literacy and cybersecurity                                         |
+|   | `awarenesstips.html` | 10 actionable tips for staying safe online                                                                 |
+|    | `letsconnect.html`   | Login and registration interface                                                                           |
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🎨 Design & Layout
+###  Design & Layout
 
 * Responsive multi-page website
 * Consistent navigation bar across all pages
@@ -58,7 +58,7 @@ eMATINO provides educational resources, awareness tips, and curated cybersecurit
 * Poppins font from Google Fonts
 * Clean and user-friendly interface
 
-### 🎥 Visual Features
+###  Visual Features
 
 * Background video on the Home page hero section
 * CSS flip-card animations for developer profiles
@@ -66,7 +66,7 @@ eMATINO provides educational resources, awareness tips, and curated cybersecurit
 * Interactive navigation
 * Table of Contents with anchor links
 
-### 🔗 Additional Features
+###  Additional Features
 
 * External cybersecurity article links
 * Social media icons in the footer
@@ -77,7 +77,7 @@ eMATINO provides educational resources, awareness tips, and curated cybersecurit
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white">
@@ -91,7 +91,7 @@ eMATINO provides educational resources, awareness tips, and curated cybersecurit
 | **Google Fonts**     | Poppins font family                                             |
 | **Font Awesome 4.7** | Social media and user-interface icons                           |
 
-### 💡 No JavaScript
+###  No JavaScript
 
 eMATINO does **not** use JavaScript.
 
@@ -101,7 +101,7 @@ The website was developed entirely using:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 eMATINO/
@@ -131,7 +131,7 @@ eMATINO/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 eMATINO is a **static website**, so there are no packages, dependencies, or installation requirements.
 
@@ -157,7 +157,7 @@ index.html
 
 in any modern web browser.
 
-### ⚠️ Important
+###  Important
 
 Make sure the following folders remain alongside your HTML files:
 
@@ -170,7 +170,7 @@ These folders contain the website's image and background-video assets.
 
 ---
 
-## 🔗 External Resources
+##  External Resources
 
 The website references educational resources from:
 
@@ -183,13 +183,13 @@ These resources provide additional information about cybersecurity and digital s
 
 ---
 
-## 👥 Developers
+##  Developers
 
 | Name                      | Role                       |
 | ------------------------- | -------------------------- |
-| **Lyle Daniel Esguerra**  | 🎨 Designer / Layout       |
-| **Asheara Jamelle Maula** | ✍️ Content Writer / Layout |
-| **Brennan Demakiling**    | ✍️ Content Writer / Layout |
+| **Lyle Daniel Esguerra**  |  Designer / Layout       |
+| **Asheara Jamelle Maula** |  Content Writer / Layout |
+| **Brennan Demakiling**    |  Content Writer / Layout |
 
 All developers are **1st-year BS Computer Science students** at:
 
@@ -197,7 +197,7 @@ All developers are **1st-year BS Computer Science students** at:
 
 ---
 
-## 🎓 Academic Project
+##  Academic Project
 
 **eMATINO** was developed as a final project for:
 
@@ -218,7 +218,7 @@ The project demonstrates fundamental web-development concepts using **HTML5 and 
 
 ---
 
-## 📄 License
+##  License
 
 This project was created **for academic purposes** as part of the Introduction to Computing course at Batangas State University.
 
@@ -228,13 +228,13 @@ This project was created **for academic purposes** as part of the Introduction t
 
 <p align="center">
 
-### 🛡️ eMATINO
+###  eMATINO
 
 *Empowering Media Awareness Through Integrity, Navigation, and Online Responsibility*
 
 <br>
 
-**Built with HTML & CSS ❤️**
+**Built with HTML & CSS**
 
 <br>
 
