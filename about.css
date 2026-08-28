@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Merriweather:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fafafa;
+    overflow-x: hidden;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+    z-index: 1000;
+    background-color: white;
+    backdrop-filter: blur(8px);
+    transition: all 0.3s ease;
+}
+
+#logo {
+    width: 250px;
+    height: auto;
+    object-fit: contain;
+    margin-top: 0;
+    margin-left: -67px;
+}
+
+nav {
+    display: flex;
+    gap: 0;
+    margin-right: -30px;
+    font-weight: 400;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    transition: 0.3s ease;
+    padding: 15px;
+}
+
+nav a:hover {
+    color: #F2FF3D;
+}
+
+.nav-item.letsconnect {
+    padding: 10px;
+    background-color: #F2FF3D;
+    color: black;
+}
+
+section {
+    padding: 40px 8%;
+}
+
+.company-section {
+    margin-top: 150px;
+    padding: 70px 10%;
+    font-family: Arial, sans-serif;
+}
+
+.company-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.company-img {
+    width: 520px;
+    height: 520px;
+    background: url('images/company-pic-modified.jpg') center/cover no-repeat;
+    flex-shrink: 0;
+}
+
+.company-text {
+    flex: 1;
+    min-width: 280px;
+}
+
+.company-text h1 {
+    font-size: 60px;
+    color: #333;
+    margin-left: 120px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.company-text p {
+    font-size: 1.5em;
+    line-height: 1.6;
+    margin-left: 120px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: #333;
+}
+
+.triad {
+    margin-left: 120px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.triad-item {
+    background: white;
+    padding: 8px 16px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.vision {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.vision img {
+    align-items: center;
+    margin-bottom: -70px;
+    height: 200px;
+    width: auto;
+}
+
+.vision h1 {
+    font-size: 60px;
+    color: #333;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.vision p {
+    margin-top: 10px;
+    font-size: 1.5em;
+    align-items: center;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+.our-values h2 {
+    margin-top: 350px;
+    align-items: left;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    font-size: 60px;
+}
+
+.our-values p {
+    margin-left: 200px;
+    font-size: 1.9em;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+.hero-section {
+    background-image: url('images/bg-modified.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 50vh;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 8px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.hero-text h2 {
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: large;
+}
+
+.flip-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: #08031a;
+    color: white;
+}
+
+.flip-section h1 {
+    font-size: 50px;
+}
+
+.flip-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.flip-title span {
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.flip-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.flip-card {
+    background: transparent;
+    width: 320px;
+    height: 530px;
+    perspective: 1000px;
+}
+
+.flip-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.7s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-front,
+.flip-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 22px;
+    overflow: hidden;
+    background: #12093b;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.flip-front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+.front-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 25px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.front-text h3 {
+    font-size: 22px;
+    margin: 0 0 5px 0;
+    color: #fff;
+    padding-left: 30px;
+}
+
+.front-text p {
+    padding-left: 30px;
+    font-size: 15px;
+    color: #ddd;
+    opacity: 0.85;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.flip-back {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: rotateY(180deg);
+}
+
+.flip-back h3 {
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+
+.flip-back p {
+    opacity: 0.9;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+    .flip-card {
+        width: 90%;
+        max-width: 340px;
+        height: 550px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .company-text h1,
+    .company-text p {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: justify;
+    }
+
+    .triad {
+        margin-left: 0;
+    }
+
+    .vision img,
+    .vision h1,
+    .vision p {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 900px) {
+    .company-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .company-img {
+        width: 100%;
+        max-width: 400px;
+        height: 300px;
+    }
+
+    .company-text h1 {
+        font-size: 36px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .company-text p {
+        font-size: 1.1em;
+        margin: 15px 20px;
+        text-align: center;
+    }
+
+    .triad {
+        justify-content: center;
+        margin: 0;
+    }
+
+    .vision {
+        margin-top: 150px;
+    }
+
+    .vision img {
+        margin: 0 auto -30px auto;
+        max-height: 150px;
+    }
+
+    .vision h1 {
+        font-size: 36px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .vision p {
+        font-size: 1.2em;
+        margin: 0 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .company-img {
+        height: 220px;
+        max-width: 100%;
+    }
+
+    .company-text h1 {
+        font-size: 28px;
+    }
+
+    .company-text p {
+        font-size: 1em;
+        margin: 10px 15px;
+    }
+
+    .triad-item {
+        font-size: 13px;
+        padding: 6px 14px;
+    }
+
+    .vision h1 {
+        font-size: 28px;
+    }
+
+    .vision p {
+        font-size: 1em;
+        margin: 0 20px;
+    }
+}
+
+.site-footer {
+    width: 100%;
+    margin: 0;
+    padding: 20px 40px;
+    background-color: #000;
+    font-size: x-large;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.footer-nav ul li {
+    margin-bottom: 10px;
+}
+
+.footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.footer-nav ul li a:hover {
+    color: #F2FF3D;
+}
+
+.locate-btn {
+    background-color: #F2FF3D;
+    color: black;
+    border: none;
+    font-size: medium;
+    padding: 12px 30px;
+    margin-left: 10px;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.icons {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.icons .fa {
+    color: yellow;
+    margin: 0 15px;
+    cursor: pointer;
+    font-size: 2.5rem;
+    transition: color 0.3s ease;
+}
+
+.icons .fa:hover {
+    color: #F2FF3D;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #aaa;
+}
