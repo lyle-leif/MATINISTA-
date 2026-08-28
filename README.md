@@ -9,7 +9,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-None-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
   <img src="https://img.shields.io/badge/Status-Completed-6A5ACD?style=for-the-badge" alt="Status">
 </p>
 
@@ -21,80 +20,88 @@
 
 ## 📖 About the Project
 
-**eMATINO** is a static, multi-page website developed as a final project for **Introduction to Computing** at **Batangas State University — The National Engineering University**.
+**eMATINO** is a static, multi-page website created as a final project for **Introduction to Computing** at **Batangas State University — The National Engineering University**.
 
-The project focuses on promoting **digital literacy, cybersecurity awareness, and responsible online behavior** among students and everyday internet users.
+The website focuses on promoting **digital literacy, cybersecurity awareness, and responsible online behavior** among students and everyday internet users.
 
-Through educational resources, practical awareness tips, and curated cybersecurity articles, eMATINO aims to help users:
+eMATINO provides educational resources, awareness tips, and curated cybersecurity articles to help users navigate the digital world safely and confidently.
 
-* 🔐 Understand common cybersecurity threats
-* 🧠 Develop better digital literacy
-* 🌐 Navigate the internet more safely
-* 🛡️ Practice responsible online behavior
-* 📚 Learn about cybersecurity through accessible resources
+### 🎯 Objectives
 
----
-
-# 🌐 Website Pages
-
-| Page                   | File                 | Description                                                                                               |
-| ---------------------- | -------------------- | --------------------------------------------------------------------------------------------------------- |
-| 🏠 **Home**            | `index.html`         | Landing page featuring a cybersecurity overview, common threats, protection tips, and a table of contents |
-| 👥 **About**           | `about.html`         | Team information, mission, vision, and developer profiles                                                 |
-| 📰 **Blogs**           | `blogs.html`         | Curated external articles covering digital literacy and cybersecurity                                     |
-| 🛡️ **Awareness Tips** | `awarenesstips.html` | 10 actionable tips for staying safe and responsible online                                                |
-| 🔗 **Let's Connect**   | `letsconnect.html`   | Login and registration interface for the platform                                                         |
+* 🔐 Promote cybersecurity awareness
+* 🧠 Encourage digital literacy
+* 🌐 Help users navigate the internet safely
+* 🛡️ Promote responsible online behavior
+* 📚 Provide accessible cybersecurity resources
 
 ---
 
-# ✨ Features
+## 🌐 Website Pages
 
-### 🎨 Modern & Responsive Design
+| Page | File                 | Description                                                                                                |
+| :--: | -------------------- | ---------------------------------------------------------------------------------------------------------- |
+|  🏠  | `index.html`         | Landing page featuring cybersecurity information, common threats, protection tips, and a table of contents |
+|  👥  | `about.html`         | Team information, mission, vision, and developer profiles                                                  |
+|  📰  | `blogs.html`         | Curated external articles about digital literacy and cybersecurity                                         |
+|  🛡️ | `awarenesstips.html` | 10 actionable tips for staying safe online                                                                 |
+|  🔗  | `letsconnect.html`   | Login and registration interface                                                                           |
 
-* Responsive multi-page layout
-* Consistent navigation across all pages
+---
+
+## ✨ Features
+
+### 🎨 Design & Layout
+
+* Responsive multi-page website
+* Consistent navigation bar across all pages
 * Custom CSS styling
-* Google Poppins font family
-* Clean and accessible interface
+* Poppins font from Google Fonts
+* Clean and user-friendly interface
 
-### 🎥 Interactive Visual Elements
+### 🎥 Visual Features
 
 * Background video on the Home page hero section
-* Flip-card animations for developer profiles
-* Interactive navigation and anchor links
+* CSS flip-card animations for developer profiles
+* Responsive layouts
+* Interactive navigation
+* Table of Contents with anchor links
 
-### 📚 Educational Content
+### 🔗 Additional Features
 
-* Cybersecurity overview
-* Common online threats
-* Practical protection tips
-* Curated cybersecurity articles
-* Table of Contents with internal anchor links
-
-### 🔗 Integrated Features
-
-* External article links
-* Social media icon links
+* External cybersecurity article links
+* Social media icons in the footer
 * Google Maps integration through the **Locate Us** button
-* Login/registration interface
+* Login and registration interface
+
+> **Note:** The website is completely static and was built using **HTML5 and CSS3 only**.
 
 ---
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-| Technology               | Purpose                                     |
-| ------------------------ | ------------------------------------------- |
-| 🧱 **HTML5**             | Page structure and content                  |
-| 🎨 **CSS3**              | Styling, animations, and responsive layouts |
-| 🔤 **Google Fonts**      | Poppins typography                          |
-| ⭐ **Font Awesome 4.7**   | Social media and UI icons                   |
-| ⚡ **Vanilla JavaScript** | None — the website is fully static          |
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white">
+</p>
 
-> **Note:** eMATINO does not require a backend, database, framework, or JavaScript functionality to run.
+| Technology           | Purpose                                                         |
+| -------------------- | --------------------------------------------------------------- |
+| **HTML5**            | Website structure, content, navigation, and page elements       |
+| **CSS3**             | Styling, layouts, animations, responsiveness, and visual design |
+| **Google Fonts**     | Poppins font family                                             |
+| **Font Awesome 4.7** | Social media and user-interface icons                           |
+
+### 💡 No JavaScript
+
+eMATINO does **not** use JavaScript.
+
+The website was developed entirely using:
+
+**HTML + CSS**
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```text
 eMATINO/
@@ -124,58 +131,59 @@ eMATINO/
 
 ---
 
-# 🚀 Getting Started
+## 🚀 Getting Started
 
-Since eMATINO is a **static website**, no installation, package manager, or build tools are required.
+eMATINO is a **static website**, so there are no packages, dependencies, or installation requirements.
 
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
 ```
 
-### 2️⃣ Open the Project
-
-Navigate into the project folder:
+### 2. Open the Project
 
 ```bash
 cd eMATINO
 ```
 
-### 3️⃣ Launch the Website
+### 3. Launch the Website
 
-Simply open:
+Open:
 
 ```text
 index.html
 ```
 
-with any modern web browser.
+in any modern web browser.
 
-### 4️⃣ Explore
+### ⚠️ Important
 
-Use the navigation bar to move between:
+Make sure the following folders remain alongside your HTML files:
 
-**Home → About → Blogs → Awareness Tips → Let's Connect**
+```text
+images/
+videos/
+```
 
-> ⚠️ **Important:** Make sure the `images/` and `videos/` folders remain in the same directory as the HTML files. Otherwise, images and background videos may not load correctly.
+These folders contain the website's image and background-video assets.
 
 ---
 
-# 🔗 External Resources
+## 🔗 External Resources
 
-The project references educational materials from established cybersecurity and technology organizations:
+The website references educational resources from:
 
 * **IBM** — What is Cybersecurity?
 * **IBM** — What is a Cyber Attack?
 * **CISA** — Cybersecurity Awareness Month
 * **IBM** — Multi-Factor Authentication
 
-These resources provide additional information for visitors who want to explore cybersecurity topics in greater depth.
+These resources provide additional information about cybersecurity and digital safety.
 
 ---
 
-# 👥 Developers
+## 👥 Developers
 
 | Name                      | Role                       |
 | ------------------------- | -------------------------- |
@@ -189,41 +197,28 @@ All developers are **1st-year BS Computer Science students** at:
 
 ---
 
-# 🎯 Project Goals
+## 🎓 Academic Project
 
-eMATINO was created with the goal of making cybersecurity awareness **simple, accessible, and relevant** to everyday internet users.
+**eMATINO** was developed as a final project for:
 
-The project encourages users to:
-
-> **Think before you click.**
-> **Protect before you share.**
-> **Stay informed before you trust.**
-
----
-
-# 📌 Academic Project
-
-This website was developed as part of the requirements for the:
-
-**Introduction to Computing**
-
-at
+### Introduction to Computing
 
 **Batangas State University — The National Engineering University**
 
-The project demonstrates the use of fundamental web development concepts, including:
+The project demonstrates fundamental web-development concepts using **HTML5 and CSS3**, including:
 
-* HTML page structuring
-* CSS styling
-* Responsive layouts
+* Multi-page website development
+* HTML structure and semantic elements
+* CSS layouts and styling
+* Responsive web design
 * CSS animations
+* Navigation between pages
 * External resource integration
-* Multi-page website navigation
-* Basic user-interface design
+* Multimedia integration
 
 ---
 
-# 📄 License
+## 📄 License
 
 This project was created **for academic purposes** as part of the Introduction to Computing course at Batangas State University.
 
@@ -232,9 +227,17 @@ This project was created **for academic purposes** as part of the Introduction t
 ---
 
 <p align="center">
-  🛡️ <strong>eMATINO</strong>
-  <br>
-  <em>Empowering Media Awareness Through Integrity, Navigation, and Online Responsibility</em>
-  <br><br>
-  Made with ❤️ by 1st-Year BS Computer Science Students
+
+### 🛡️ eMATINO
+
+*Empowering Media Awareness Through Integrity, Navigation, and Online Responsibility*
+
+<br>
+
+**Built with HTML & CSS ❤️**
+
+<br>
+
+*By 1st-Year BS Computer Science Students*
+
 </p>
